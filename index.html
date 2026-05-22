@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Catalogo mayorista de juguetes en Chile con precios en CLP IVA incluido. Autos a bateria, triciclos, andadores, piscinas de pelotas y mas."
+    />
+    <title>RJRB Juguetes Mayoristas | Precios IVA incluido</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="RJRB Juguetes inicio">
+        <span class="brand-mark">RJ</span>
+        <span>
+          <strong>RJRB Juguetes</strong>
+          <small>Mayorista en Chile</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Principal">
+        <a href="#catalogo">Catalogo</a>
+        <a href="#mayorista">Mayorista</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="nav-cta" href="https://wa.me/56940248567" target="_blank" rel="noreferrer">Cotizar</a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Precios ya incluyen IVA</p>
+          <h1>Juguetes al por mayor para tiendas, bazares y revendedores</h1>
+          <p>
+            Catalogo actualizado con piscinas de pelotas, triciclos, andadores, resbalines, motos y autos a bateria.
+            Atencion directa por WhatsApp para pedidos por volumen.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Ver catalogo</a>
+            <a class="button button-outline" href="#contacto">Pedir lista por WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Productos destacados">
+          <img src="./assets/catalog/product-23.jpg" alt="Auto a bateria infantil para mayoristas" />
+          <div class="hero-card-note">
+            <span>Desde</span>
+            <strong>$5.000 CLP</strong>
+            <small>por unidad, IVA incluido</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-strip" aria-label="Datos rapidos">
+        <div>
+          <strong>32</strong>
+          <span>productos extraidos del listado</span>
+        </div>
+        <div>
+          <strong>CLP</strong>
+          <span>precios con IVA incluido</span>
+        </div>
+        <div>
+          <strong>Maipu</strong>
+          <span>Santa Adela 9500</span>
+        </div>
+      </section>
+
+      <section class="feature-band" id="mayorista">
+        <div>
+          <p class="eyebrow">Compra mayorista</p>
+          <h2>Arma tu pedido y envialo directo por WhatsApp</h2>
+          <p>
+            Los clientes pueden filtrar por categoria, revisar precios y solicitar cotizacion con el producto que les interesa.
+            Es una primera version pensada para convertir visitas de Facebook en conversaciones reales.
+          </p>
+        </div>
+        <div class="feature-actions">
+          <a class="button button-inverted" href="#catalogo">Explorar juguetes</a>
+          <a class="button button-dark-outline" href="mailto:RJRBLTDA@GMAIL.COM">Enviar email</a>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalogo">
+        <div class="section-heading">
+          <p class="eyebrow">Catalogo de juguetes</p>
+          <h2>Listado actualizado 11-05-2026</h2>
+          <p>Usa los filtros para encontrar productos rapido. Todos los precios estan en pesos chilenos e incluyen IVA.</p>
+        </div>
+
+        <div class="catalog-tools">
+          <label class="search-box">
+            <span>Buscar producto</span>
+            <input type="search" data-search placeholder="Auto, triciclo, piscina..." />
+          </label>
+
+          <div class="filter-pills" data-filters aria-label="Filtrar por categoria">
+            <button class="active" type="button" data-category="Todos">Todos</button>
+            <button type="button" data-category="Exterior">Exterior</button>
+            <button type="button" data-category="Bebes">Bebes</button>
+            <button type="button" data-category="Autos">Autos</button>
+            <button type="button" data-category="Motos">Motos</button>
+          </div>
+        </div>
+
+        <div class="product-grid" data-product-grid></div>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <div class="contact-copy">
+          <p class="eyebrow">Contacto directo</p>
+          <h2>Solicita disponibilidad y precio final</h2>
+          <p>
+            Para pedidos por volumen, envia el producto, cantidad aproximada y si necesitas boleta o factura.
+            El sitio abre WhatsApp con el mensaje listo.
+          </p>
+          <ul>
+            <li><strong>WhatsApp:</strong> +56 9 4024 8567</li>
+            <li><strong>Email:</strong> RJRBLTDA@GMAIL.COM</li>
+            <li><strong>Direccion:</strong> Santa Adela 9500, Maipu</li>
+          </ul>
+        </div>
+
+        <form class="lead-form" data-lead-form>
+          <label>
+            <span>Nombre o empresa</span>
+            <input name="name" type="text" autocomplete="organization" required />
+          </label>
+          <label>
+            <span>WhatsApp</span>
+            <input name="phone" type="tel" autocomplete="tel" required />
+          </label>
+          <label>
+            <span>Producto de interes</span>
+            <input name="product" type="text" data-product-interest placeholder="Ej: Auto a bateria 588" />
+          </label>
+          <label>
+            <span>Cantidad aproximada</span>
+            <input name="quantity" type="text" placeholder="Ej: 3 unidades / 1 caja" />
+          </label>
+          <button type="submit">Enviar por WhatsApp</button>
+          <p>El formulario no guarda datos; solo prepara un mensaje de WhatsApp.</p>
+        </form>
+      </section>
+    </main>
+
+    <a class="floating-whatsapp" href="https://wa.me/56940248567" target="_blank" rel="noreferrer" aria-label="Abrir WhatsApp">
+      <span>W</span>
+    </a>
+
+    <footer class="site-footer">
+      <strong>IMP Y EXP RJRB LTDA</strong>
+      <span>Catalogo web basado en listado de juguetes ACT 11-05-2026.</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
