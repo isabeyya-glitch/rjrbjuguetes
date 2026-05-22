@@ -55,7 +55,7 @@ const products = [
     price: 35000,
     unit: "/U",
     packaging: "Embalaje: 3 U",
-    image: "product-05.jpg",
+    image: "product-09.jpg",
   },
   {
     name: "Triciclo metal luz y musica",
@@ -63,7 +63,7 @@ const products = [
     price: 27000,
     unit: "/U",
     packaging: "Embalaje: 3 U",
-    image: "product-06.jpg",
+    image: "product-05.jpg",
   },
   {
     name: "Triciclo 818 musical",
@@ -71,7 +71,7 @@ const products = [
     price: 33000,
     unit: "/U",
     packaging: "Embalaje: 3 U",
-    image: "product-09.jpg",
+    image: "product-06.jpg",
   },
   {
     name: "Resbalin y columpio",
@@ -171,8 +171,8 @@ const products = [
   },
   {
     name: "Cuatrimoto",
-    category: "Autos",
-    price: 320000,
+    category: "Motos",
+    price: 32000,
     unit: "/U",
     packaging: "Batería V6",
     image: "product-30.jpg",
